@@ -21,6 +21,7 @@ class MinimalPublisher(Node):   # Create a new class called MinimalPublisher tha
 
 
 def main(args=None):
+    print ("Beginning to talk...")          # Print a starting message
     rclpy.init(args=args)                   # Initialize the ROS 2 Python client library
 
     minimal_publisher = MinimalPublisher()  # Create an instance of the MinimalPublisher class

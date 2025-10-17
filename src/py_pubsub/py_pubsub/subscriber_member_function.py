@@ -19,6 +19,7 @@ class MinimalSubscriber(Node):  # Create a new class called MinimalSubscriber th
 
 
 def main(args=None):
+    print ("Beginning to listen...")            # Print a starting message
     rclpy.init(args=args)                       # Initialize the ROS 2 Python client library
 
     minimal_subscriber = MinimalSubscriber()    # Create an instance of the MinimalSubscriber class
