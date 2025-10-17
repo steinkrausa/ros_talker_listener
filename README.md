@@ -4,11 +4,11 @@
   2. cd into repo
   3. add ROS variables to the terminal's environment
   * `source /opt/ros/jazzy/setup.bash`
-  5. build the code:
+  4. build the code:
   * `colcon build`
-  7. add this project's variables to the terminal's environment
+  5. add this project's variables to the terminal's environment
   * `source install/local_setup.bash`
-  9. run the listener node
+  6. run the listener node
   * `ros2 run py_pubsub listener`
 * In another terminal:
   1. cd into repo
